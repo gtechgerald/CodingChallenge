@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IDescendantSearchService.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DescendantSearchService.cs" />
     <Compile Include="Solution.cs" />
   </ItemGroup>
   <ItemGroup>

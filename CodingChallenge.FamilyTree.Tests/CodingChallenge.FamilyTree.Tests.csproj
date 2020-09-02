@@ -63,13 +63,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CodingChallenge.FamilyTree\CodingChallenge.FamilyTree.csproj">
-      <Project>{F43D3813-4615-48F4-95D4-44CE7C49B40F}</Project>
-      <Name>CodingChallenge.FamilyTree</Name>
-    </ProjectReference>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+    <ProjectReference Include="..\CodingChallenge.FamilyTree\CodingChallenge.FamilyTree.csproj">
+      <Project>{f43d3813-4615-48f4-95d4-44ce7c49b40f}</Project>
+      <Name>CodingChallenge.FamilyTree</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
